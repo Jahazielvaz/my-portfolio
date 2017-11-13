@@ -7,86 +7,95 @@
 	<title>My portfolio landing page</title>
 	<link rel="stylesheet" type="text/css" href="landing-page-ss.css">
 	<link rel="shorcut icon" type="image/jpg" href="images/emoji.jpg">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 </head>
 
 <body>
-<div id="main-container">
+	<header>
+		<div class="heading-div">
+			<h1>Web developer</h1>
+			<h2>Jahaziel Vazquez</h2>
+		</div>
 
-<header>
-	<h1 class="main-heading">JAHAZIEL VAZQUEZ</h1>
-	<nav class="main-navi-wrapper">
-		<ul>
-			<a href="#"><li class="main-list">CONTACTS</li></a>
-			<a href="#"><li class="main-list">BLOG</li></a>
-			<a href="#"><li class="main-list">EXPERIENCE</li></a>
-			<a href="#"><li class="main-list">PORTFOLIO</li></a>
-			<a href="#"><li class="main-list">ABOUT</li></a>
-			<a href="#"><li class="main-list">MAIN PAGE</li></a>
-		</ul>
-	</nav>
-</header>
+		<nav class="nav-wrapper">
+			<ul>
+				<a href="#"><li class="main-list">CONTACTS</li></a>
+				<a href="#"><li class="main-list">BLOG</li></a>
+				<a href="#"><li class="main-list">EXPERIENCE</li></a>
+				<a href="#"><li class="main-list">PORTFOLIO</li></a>
+				<a href="#"><li class="main-list">ABOUT</li></a>
+				<a href="#"><li class="main-list">MAIN PAGE</li></a>
+			</ul>
+		</nav>
+	</header>
+<!--END OF HEADER-->
 
-<div class="main-section-wrapper">
-	<h2 class="welcome">
-			WELCOME TO 
-		<br>JAHAZIEL VAZQUEZ'S:
-		<br> TECHNOVA PROTFOLIO
-	</h2>
-</div>
+	<section id="main-section-wrapper">
+		<div class="welcome-wrapper">
+			<h2 class="welcome">WELCOME!</h2>
+		</div>
+	</section>
+<!--END OF MAIN SECTION-->
 
-<div class="divider">
-	<h2 class="bio-heading">SHORT BIO!</h2>
-	<br><br>
-	<p class="bio-text">
-		Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography.
-		<br><br>
-		<a href="#"><input type="button" value="MORE" class="more-button"></a>
-	</p>
-</div>
-
-
-<div class="victory-background">
-	<div class="portfolio-text">
-		<h2>PORTFOLIO</h2><br>
-		
-		<p>
-			<b>Cicero famously orated against</b> <br> his political opponent Lucius Sergius Catilina.<br> Occasionally the first Oration against Catiline <br> is taken for type specimens: <br> Quo usque tandem abutere, Catilina, patientia nostra? <br> Quam diu etiam furor iste tuus nos eludet. <br> <br>
-
-			<a href="#"><input type="button" value="MORE" class="more-two"></a>
+	<section id="bio">
+		<h2 class="bio-heading">SHORT BIO!</h2>
+		<p class="bio-text">
+			Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography.	<br><br>
+			<a href="#"><input type="button" value="MORE" class="more-button"></a>
 		</p>
-	</div>
-</div>
+	</section>
+<!--END OF BIO SECTION-->
 
-<div class="portfolio-content">
+	<section id="victory-background">
+		<div class="portfolio-text">
+			<h2>PORTFOLIO</h2>
 
-	<a href="file:///Users/KupidoExportLLC/Desktop/WEB%20DEV%20MY%20PROJECTS./Auto%20Biography/epic%20people%20biographies.html">
-		<img src="images/epic-people-bio.jpg" alt="Epic People Front Page" class="epic-people-screen">
-	</a>
+			<p>
+				Cicero famously orated against his political opponent Lucius Sergius Catilina. Occasionally the first Oration against Catiline <br> is taken for type specimens: <br> Quo usque tandem abutere, Catilina, patientia nostra? <br> Quam diu etiam furor iste tuus nos eludet. <br> <br>
+				<a href="#"><input type="button" value="MORE" class="more-two"></a>
+			</p>
+		</div>
+	</section>
+<!--END OF PORTFOLIO SECTION-->
 
-	<a href="file:///Users/KupidoExportLLC/Desktop/WEB%20DEV%20MY%20PROJECTS./Auto%20Biography/registration.html">
-		<img src="images/signup.jpg" alt="Signup Screen" class="signup-screen">
-	</a>
+	<section class="portfolio-content">
+		<article>
+			<a href="file:///Users/KupidoExportLLC/Desktop/web-dev-projects/Auto%20Biography/epic%20people%20biographies.html#">
+				<img src="images/epic-people-bio.jpg" alt="Epic People Front Page" class="epic-people-screen">
+			</a>
 
-	<a href="file:///Users/KupidoExportLLC/Desktop/WEB%20DEV%20PRACTICE%20PAGES/practice%20pages/TechNova%20Learning%20Landing%20Page.html">
-		<img src="images/technova-learning-screen.jpg" alt="Technova Learning Landing Page" class="technova-learning-screen">
-	</a>
-	
-</div>
+			<a href="file:///Users/KupidoExportLLC/Desktop/WEB%20DEV%20MY%20PROJECTS./Auto%20Biography/registration.html">
+				<img src="images/signup.png" alt="Signup Screen" class="signup-screen">
+			</a>
 
+			<a href="file:///Users/KupidoExportLLC/Desktop/WEB%20DEV%20PRACTICE%20PAGES/practice%20pages/TechNova%20Learning%20Landing%20Page.html">
+				<img src="images/technova-learning-screen.png" alt="Technova Learning Landing Page" class="technova-learning-screen">
+			</a>
+		</article>
+	</section>
+<!-- END OF PORTFOLIO CONTENT-->
 
+	<footer>
+		<article>
+			<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+			<h2>FACEBOOK</h2>
+		</article>
 
-<div class="footer-head"></div>
+		<article>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<h2>TWITTER</h2>
+		</article>
 
-<div class="footer">
-	<input type="email" value="your@email.com" class="email">
-	<p class="req-field">This field is required *</p>
-	<h2 class="subscribe-text"><a href="#">SUBSCRIBE</a></h2>
-	<h2 class="address">1111 REDWOOD RD. SALT LAKE CITY, UT, 84123</h2>
-	<h2 class="privacy-policy">2017/<a href="#">PRIVACY POLICY</a></h2>
-</div>
+		<article>
+			<a href="#"><i class="fa fa-youtube"></i></a>
+			<h2>YOUTUBE</h2>
+		</article>
 
+		<article>
+			<a href="#"><i class="fa fa-github"></i></a>
+			<h2>GITHUB</h2>
+		</article>
+	</footer>
 
-
-</div>
 </body>
 </html>

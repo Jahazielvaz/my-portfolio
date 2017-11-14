@@ -1,7 +1,7 @@
 *{
 	margin:0px;
 	padding:0px;
-	font-family:helvetica, verdana;
+	font-family: helvetica, verdana;
 	list-style: none;
 }
 
@@ -101,8 +101,9 @@ section#victory-background{
 
 div.portfolio-text{
 	color:black;
-	margin: 40px 30px 30px 15%;
+	margin: 40px;
 	font-weight: bold;
+	max-width: ;
 }
 
 input.more-two{
@@ -117,10 +118,9 @@ input.more-two{
 /* END OF PORTFOLIO SECTION*/
 
 
-div.portfolio-content{
+section.portfolio-content{
 	background-color:#1b1b1b;
 	width:100%;
-	height:313px;
 }
 
 section.portfolio-content img{
@@ -163,7 +163,45 @@ i.fa{
 }
 
 /* MEDIA QUERIES #A03C53 #A03C81 ---------------------------------------*/
-@media(min-width: 350px) and (max-width: 830px){
+
+/*--------------------- MID */
+@media(min-width: 701px) and (max-width: 833px){
+
+/* HEADER */
+	header{
+		padding:10px;
+		color:white;
+		background-color:black;
+		text-align: center;
+		font-size: 13px;
+	}
+
+	div.heading-div{
+		margin: 0 auto;
+		width: 30%;
+		padding: 60px 25px;
+	}
+
+
+	nav.nav-wrapper{
+		width: 40%;
+		display: block;
+		float: right;
+	}
+
+	li.main-list{
+		display: block;
+		width: 100%;
+		margin: 1% auto;
+		border: 1px solid white;
+		border-radius: 20px;
+		opacity: .9;
+	}
+}
+
+
+/*-------------------- SMALL */
+@media(min-width: 300px) and (max-width: 700px){
 	header{
 		padding:10px;
 		color:white;
@@ -184,9 +222,9 @@ i.fa{
 	}
 
 	li.main-list{
-		width: auto;
 		display: block;
-		margin: 2% auto;
+		width: auto;
+		margin: 5px 6%;
 		border: 1px solid white;
 		border-radius: 20px;
 		opacity: .9;
@@ -259,27 +297,32 @@ i.fa{
 	}
 	/* END OF PORTFOLIO */
 
+	section.portfolio-content{
+	display: none;
+}
+	/* END OF PORTFOLIO CONTENT*/
+
 	/* BEGINNING FOOTER */
 	footer{
 		text-align: center;
+		padding: 4% 0;
 	}
 	footer article{
-		//float: left;
-		width: 23.7%;
-		min-height: 100px;
+		width: 95%;
+		min-height: auto;
 		background: black;
-		border: 2px double white;
+		border: 1px solid white;
 		display: inline-block;
 	}
 
 	footer h2{
 		color: white;
 		text-align: center;
-		margin-top: 10%;
+		display: inline-block;
 	}
 
 	i.fa{
-		font-size: 100px;
-		margin: 10% auto 5% auto;
+		font-size: 40px;
+		margin: 4% auto 5% auto;
 	}
 }

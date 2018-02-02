@@ -23,7 +23,10 @@ body{
 div#page-container{
 		max-width: 1200px;
 		margin: auto;
+		background: green;
 	}
+
+
 
 /* END OF MISC */
 

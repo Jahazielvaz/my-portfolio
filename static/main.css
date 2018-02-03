@@ -40,17 +40,14 @@ header{
 div.heading-div{
 	float: left;
 	max-width: 500px;
+	text-align: center;
 }
-
-div.heading-div h2{
-	margin-left: 50px;
-}
-
 
 nav.nav-wrapper{
 	float: right;
 	max-width: 700px;
 	margin: 20px auto;
+	display: block;
 }
 
 li.main-list{

@@ -15,10 +15,21 @@ app.get('/', function(req, res){
 app.get('/contact', function(req, res){
   console.log(`Request has been made by ${req.url}`);
   res.render('contact.ejs');
-})
+});
 
 app.get('/portfolio', function(req, res){
+  console.log(`Request has been made by ${req.url}`);
   res.render('portfolio.ejs');
+});
+
+app.get('/experience', function(req, res){
+  console.log(`Request has been made by ${req.url}`);
+  res.render('experience.ejs');
+});
+
+app.get('/about', function(req, res){
+  console.log(`Request has been made by ${req.url}`);
+  res.render('about.ejs');
 })
 
 app.listen(3000);
